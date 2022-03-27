@@ -13,6 +13,7 @@ public class BubbleSort {
         }
     }
 
+    // sort with flag
     public void sort_2(int[] nums) {
         int n = nums.length;
 
