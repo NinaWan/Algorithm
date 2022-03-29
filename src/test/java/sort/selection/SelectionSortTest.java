@@ -1,4 +1,4 @@
-package sort.insertion;
+package sort.selection;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,12 +6,12 @@ import sort.SortTest;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class InsertionSortTest extends SortTest {
-    private InsertionSort tested;
+class SelectionSortTest extends SortTest {
+    private SelectionSort tested;
 
     @BeforeEach
     public void setup() {
-        tested = new InsertionSort();
+        tested = new SelectionSort();
     }
 
     @Test
