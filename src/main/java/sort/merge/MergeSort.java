@@ -1,7 +1,7 @@
-package com.aileenw.sort;
+package sort.merge;
 
 public class MergeSort {
-    private void sort(int[] nums, int start, int end) {
+    public void sort(int[] nums, int start, int end) {
         if (start >= end) {
             return;
         }
