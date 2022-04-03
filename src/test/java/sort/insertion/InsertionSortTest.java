@@ -10,7 +10,7 @@ class InsertionSortTest extends SortTest {
     private InsertionSort tested;
 
     @BeforeEach
-    public void setup() {
+    public void setUp() {
         tested = new InsertionSort();
     }
 

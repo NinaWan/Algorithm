@@ -10,7 +10,7 @@ class BubbleSortTest extends SortTest {
     private BubbleSort tested;
 
     @BeforeEach
-    public void setup() {
+    public void setUp() {
         tested = new BubbleSort();
         testData = new int[]{3, 2, 1};
         expected = new int[]{1, 2, 3};

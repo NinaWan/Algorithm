@@ -1,6 +1,10 @@
 package sort.merge;
 
 public class MergeSort {
+    public void sort(int[] nums) {
+        sort(nums, 0, nums.length - 1);
+    }
+
     public void sort(int[] nums, int start, int end) {
         if (start >= end) {
             return;
