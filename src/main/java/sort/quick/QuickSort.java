@@ -19,16 +19,20 @@ public class QuickSort {
         int pivot = nums[start], left = start, right = end;
 
         while (left < right) {
-            while (left < right && nums[left] < pivot) {
-                left++;
-            }
-
-            while (left < right && nums[right] > pivot) {
+            while (left < right && nums[right] >= pivot) {
                 right--;
             }
 
-            swap(nums, left, right);
+            nums[left] = nums[right];
+
+            while (left < right && nums[left] <= pivot) {
+                left++;
+            }
+
+            nums[right] = nums[left];
         }
+
+        nums[left] = pivot;
 
         return left;
     }
