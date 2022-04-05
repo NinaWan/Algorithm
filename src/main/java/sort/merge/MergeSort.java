@@ -22,7 +22,7 @@ public class MergeSort {
         int l = start, r = mid + 1, i = 0;
 
         while (l <= mid && r <= end) {
-            if (nums[l] < nums[r]) {
+            if (nums[l] <= nums[r]) {
                 res[i++] = nums[l++];
             } else {
                 res[i++] = nums[r++];
