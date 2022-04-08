@@ -1,4 +1,4 @@
-package sort.insertion;
+package sort.shell;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,16 +6,16 @@ import sort.SortTest;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class InsertionSortTest extends SortTest {
-    private InsertionSort tested;
+class ShellSortTest extends SortTest {
+    private ShellSort tested;
 
     @BeforeEach
-    public void setUp() {
-        tested = new InsertionSort();
+    void setUp() {
+        tested = new ShellSort();
     }
 
     @Test
-    public void testSort() {
+    void testSort() {
         tested.sort(testData);
         assertArrayEquals(expected, testData);
     }

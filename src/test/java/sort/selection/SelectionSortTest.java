@@ -17,6 +17,6 @@ class SelectionSortTest extends SortTest {
     @Test
     public void testSort() {
         tested.sort(testData);
-        assertArrayEquals(testData, expected);
+        assertArrayEquals(expected, testData);
     }
 }

@@ -39,9 +39,15 @@
 
 *时间复杂度推导*：
 
-$$\begin{aligned} T(n) &= 2T(\frac{n}{2})+n \\ &= 2(2T(\frac{n}{2})+\frac{n}{2})+n \\ &= 4T(\frac{n}{4})+2n \\ &= 4(2T(
-\frac{n}{8})+\frac{n}{4})+2n \\ &= 8T(\frac{n}{8})+3n \\ &= ... ... \\ &= 2^kT(\frac{n}{2^k})+kn \\ &= nT(1)+n\log n \\
-&= O(n\log n) \\ \end{aligned}$$
+$$\begin{aligned} 
+T(n) &= 2T(\frac{n}{2})+n \\ 
+     &= 2(2T(\frac{n}{2})+\frac{n}{2})+n \\ 
+     &= 4T(\frac{n}{4})+2n \\ 
+     &= 4(2T(\frac{n}{8})+\frac{n}{4})+2n \\ 
+     &= 8T(\frac{n}{8})+3n \\ &= ... ... \\ 
+     &= 2^kT(\frac{n}{2^k})+kn \\ &= nT(1)+n\log n \\
+     &= O(n\log n) \\ 
+\end{aligned}$$
 
 **最差时间复杂度**：$O(n^2)$
 
@@ -49,8 +55,14 @@ $$\begin{aligned} T(n) &= 2T(\frac{n}{2})+n \\ &= 2(2T(\frac{n}{2})+\frac{n}{2})
 
 *时间复杂度推导*：
 
-$$\begin{aligned} T(n) &= T(n-1)+n \\ &= T(n-2)+(n-1)+n \\ &= T(n-3)+(n-2)+(n-1)+n \\ &= ... ... \\ &= T(0)+1+2+...+(
-n-1)+n \\ &= T(0)+\frac{n*(n+1)}{2} \\ &= O(n^2) \\ \end{aligned}$$
+$$\begin{aligned} 
+T(n) &= T(n-1)+n \\ 
+     &= T(n-2)+(n-1)+n \\ 
+     &= T(n-3)+(n-2)+(n-1)+n \\ 
+     &= ... ... \\ 
+     &= T(0)+1+2+...+(n-1)+n \\ &= T(0)+\frac{n*(n+1)}{2} \\ 
+     &= O(n^2) \\ 
+\end{aligned}$$
 
 **平均时间复杂度**：$O(n\log n)$
 
