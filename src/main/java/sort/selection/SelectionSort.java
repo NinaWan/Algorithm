@@ -1,6 +1,9 @@
 package sort.selection;
 
-public class SelectionSort {
+import sort.ArraySort;
+
+public class SelectionSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             int minIdx = i;

@@ -18,13 +18,13 @@ class BubbleSortTest extends SortTest {
 
     @Test
     void testSort1() {
-        tested.sort_1(testData);
+        tested.sort(testData);
         assertArrayEquals(expected, testData);
     }
 
     @Test
     void testSort2() {
-        tested.sort_2(testData);
+        tested.sortWithFlag(testData);
         assertArrayEquals(expected, testData);
     }
 }

@@ -1,6 +1,9 @@
 package sort.quick;
 
-public class QuickSort {
+import sort.ArraySort;
+
+public class QuickSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         sort(nums, 0, nums.length - 1);
     }

@@ -1,6 +1,9 @@
 package sort.merge;
 
-public class MergeSort {
+import sort.ArraySort;
+
+public class MergeSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         sort(nums, 0, nums.length - 1);
     }

@@ -1,7 +1,9 @@
 package sort.heap;
 
-public class HeapSort {
+import sort.ArraySort;
 
+public class HeapSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         buildMaxHeap(nums);
 

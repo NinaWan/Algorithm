@@ -1,6 +1,9 @@
 package sort.shell;
 
-public class ShellSort {
+import sort.ArraySort;
+
+public class ShellSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         int n = nums.length;
         for (int d = n / 2; d > 0; d /= 2) {

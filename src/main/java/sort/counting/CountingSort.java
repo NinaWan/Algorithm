@@ -1,6 +1,9 @@
 package sort.counting;
 
-public class CountingSort {
+import sort.ArraySort;
+
+public class CountingSort implements ArraySort {
+    @Override
     public void sort(int[] nums) {
         int min = nums[0], max = nums[0];
         for (int num : nums) {

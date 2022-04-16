@@ -1,7 +1,10 @@
 package sort.bubble;
 
-public class BubbleSort {
-    public void sort_1(int[] nums) {
+import sort.ArraySort;
+
+public class BubbleSort implements ArraySort {
+    @Override
+    public void sort(int[] nums) {
         int n = nums.length;
 
         for (int i = n - 1; i >= 0; i--) {
@@ -14,7 +17,7 @@ public class BubbleSort {
     }
 
     // sort with flag
-    public void sort_2(int[] nums) {
+    public void sortWithFlag(int[] nums) {
         int n = nums.length;
 
         for (int i = n - 1; i >= 0; i--) {
