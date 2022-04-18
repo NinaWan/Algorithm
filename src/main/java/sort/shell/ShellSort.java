@@ -8,7 +8,7 @@ public class ShellSort implements ArraySort {
         int n = nums.length;
         for (int d = n / 2; d > 0; d /= 2) {
             for (int i = d; i < n; i++) {
-                for (int j = i - d; j >= d && nums[j] < nums[j - d]; j -= d) {
+                for (int j = i; j >= d && nums[j] < nums[j - d]; j -= d) {
                     swap(nums, j, j - d);
                 }
             }

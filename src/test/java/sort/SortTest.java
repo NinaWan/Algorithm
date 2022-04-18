@@ -1,6 +1,6 @@
 package sort;
 
 public class SortTest {
-    protected int[] testData = {5, 8, 5, 2, 9};
-    protected int[] expected = {2, 5, 5, 8, 9};
+    protected int[] testData = {1, 8, 7, 44, 42, 46, 38, 34, 33, 17, 15, 16, 27, 28, 24};
+    protected int[] expected = {1, 7, 8, 15, 16, 17, 24, 27, 28, 33, 34, 38, 42, 44, 46};
 }
