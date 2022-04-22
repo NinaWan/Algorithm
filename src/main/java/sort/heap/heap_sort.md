@@ -35,7 +35,7 @@
 
 **平均时间复杂度**：$O(n\log n)$
 
-时间复杂度分析：
+**时间复杂度分析：**
 
 ```
     public void sort(int[] nums) {

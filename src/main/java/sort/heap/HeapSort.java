@@ -9,7 +9,7 @@ public class HeapSort implements ArraySort {
 
         for (int i = nums.length - 1; i > 0; i--) {// sort data
             swap(nums, 0, i);// swap the first and last elements in the max heap
-            maxHeapify(0, nums, i - 1);// sink from top element
+            maxHeapify(0, nums, i);// sink from top element
         }
     }
 
