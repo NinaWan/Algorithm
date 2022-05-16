@@ -12,11 +12,18 @@ class InsertionSortTest extends SortTest {
     @BeforeEach
     public void setUp() {
         tested = new InsertionSort();
+        resetTestData();
     }
 
     @Test
     public void testSort() {
         tested.sort(testData);
+        assertArrayEquals(expected, testData);
+    }
+
+    @Test
+    public void testSortBinary() {
+        tested.sort_binary(testData);
         assertArrayEquals(expected, testData);
     }
 }
