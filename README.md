@@ -2,7 +2,9 @@
 
 ## Table of Content
 
-### [Sort Algorithms](./src/main/java/sort/sort.md)
+### Math
+
+### [Sort](./src/main/java/sort/sort.md)
 
 * [Bubble Sort](./src/main/java/sort/bubble/bubble_sort.md)
 * [Bucket Sort](./src/main/java/sort/bucket/bucket_sort.md)
