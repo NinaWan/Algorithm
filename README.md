@@ -24,6 +24,12 @@
 
 * [Kadane](src/main/java/array/subarray/kadane/kadane.md)
 
+### String
+
+#### String Match
+
+* [KMP](src/main/java/string/match/kmp.md)
+
 ### Other
 
 * [Boyer–Moore Majority Vote Algorithm](src/main/java/other/boyer_moore_majority.md)
