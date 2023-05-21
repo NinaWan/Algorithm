@@ -4,6 +4,10 @@
 
 ### Math
 
+#### Prime
+
+* [Sieve of Eratosthenes](src/main/java/math/prime/sieve_of_eratosthenes.md)
+
 ### [Sort](src/main/java/sort/sort.md)
 
 * [Bubble Sort](src/main/java/sort/bubble/bubble_sort.md)
