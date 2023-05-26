@@ -38,6 +38,12 @@
 
 * [KMP](src/main/java/string/match/kmp.md)
 
+### Graph
+
+#### Shortest Path
+
+* [Dijkstra](src/main/java/graph/shortestpath/dijkstra/dijkstra.md)
+
 ### Other
 
 * [Boyer–Moore Majority Vote Algorithm](src/main/java/other/boyer_moore_majority.md)
