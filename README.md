@@ -44,6 +44,7 @@
 
 * [Dijkstra](src/main/java/graph/shortestpath/dijkstra/dijkstra.md)
 
-### Other
+### Unclassified
 
-* [Boyer–Moore Majority Vote Algorithm](src/main/java/other/boyer_moore_majority.md)
+* [Boyer–Moore Majority Vote Algorithm](src/main/java/unclassified/boyer_moore_majority.md)
+* [Reservoir Sampling](src/main/java/unclassified/sampling/reservoir_sampling.md)
