@@ -44,6 +44,10 @@
 
 * [Dijkstra](src/main/java/graph/shortestpath/dijkstra/dijkstra.md)
 
+### DP
+
+* [Digit DP](src/main/java/dp/digit/digit.md)
+
 ### Unclassified
 
 * [Boyer–Moore Majority Vote Algorithm](src/main/java/unclassified/boyer_moore_majority.md)
