@@ -20,17 +20,10 @@
 * [Radix Sort](src/main/java/sort/radix/radix_sort.md)
 * [Selection Sort](src/main/java/sort/selection/selection_sort.md)
 * [Shell Sort](src/main/java/sort/shell/shell_sort.md)
-* [Tim Sort](src/main/java/sort/tim/tim_sort.md)
 
-### Array
+[//]: # (* [Tim Sort]&#40;src/main/java/sort/tim/tim_sort.md&#41;)
 
-#### Subarray
-
-* [Kadane](src/main/java/array/subarray/kadane/kadane.md)
-
-#### Subsequence
-
-* [LIS](src/main/java/array/subsequence/lis/lis.md)
+### [Array](src/main/java/array/array_toc.md)
 
 ### String
 
@@ -38,11 +31,7 @@
 
 * [KMP](src/main/java/string/match/kmp.md)
 
-### Graph
-
-#### Shortest Path
-
-* [Dijkstra](src/main/java/graph/shortestpath/dijkstra/dijkstra.md)
+### [Graph](src/main/java/graph/graph_toc.md)
 
 ### DP
 
