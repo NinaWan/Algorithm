@@ -1,0 +1,35 @@
+# Floyd–Warshall
+
+## 解决的问题
+
+多源最短路径问题，求图中任意两点间的最短路径。
+
+## 基本思想
+
+前提：对于图中任意两点，想要减小两者之间的路径长度，则只能通过在两点之间添加其他的点作为中转点k才有可能实现。
+a->b => a->k1->...->ki->b
+
+该算法就是在此前提下，依次添加每个顶点作为中转点，同时更新两点间的路径长度，i.e. dist[i][j] = Math.min(dist[i][j],
+dist[i][k]+dist[k][j])
+
+## 实现
+
+```
+for(int k=1; k<=n; k++){
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n; j++){
+            dist[i][j] = Math.min(dist[i][j], dist[i][k]+dist[k][j]);
+        }
+    }
+}
+```
+
+## 时间复杂度
+
+O(n^3)
+
+## 空间复杂度
+
+# Refs
+
+1. [坐在马桶上看算法：只有五行的Floyd最短路算法](https://blog.csdn.net/gl486546/article/details/52620618)
