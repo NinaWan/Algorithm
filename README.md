@@ -4,9 +4,9 @@
 
 ### Math
 
-#### Prime
+`Prime`
 
-* [Sieve of Eratosthenes](src/main/java/math/prime/sieve_of_eratosthenes.md)
+* [Sieve of Eratosthenes](src/main/java/math/prime/sieveOfEratosthenes/sieve_of_eratosthenes.md)
 
 ### [Sort](src/main/java/sort/sort.md)
 
@@ -25,11 +25,11 @@
 
 ### [Array](src/main/java/array/array_toc.md)
 
-### String
+### [String](src/main/java/string/string_toc.md)
 
-#### String Match
+`Palindrome`
 
-* [KMP](src/main/java/string/match/kmp.md)
+* [Manacher](src/main/java/string/palindrome/manacher/manacher.md)
 
 ### [Graph](src/main/java/graph/graph_toc.md)
 
