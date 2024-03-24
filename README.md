@@ -2,11 +2,7 @@
 
 ## Table of Content
 
-### Math
-
-`Prime`
-
-* [Sieve of Eratosthenes](src/main/java/math/prime/sieveOfEratosthenes/sieve_of_eratosthenes.md)
+### [Math](src/main/java/math/math_toc.md)
 
 ### [Sort](src/main/java/sort/sort.md)
 
