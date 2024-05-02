@@ -37,3 +37,9 @@
 
 * [Boyer–Moore Majority Vote Algorithm](src/main/java/unclassified/boyer_moore_majority.md)
 * [Reservoir Sampling](src/main/java/unclassified/sampling/reservoir_sampling.md)
+
+### `Math`
+
+* Least Common Multiple (LCM)
+* Quick Power
+* Sieve of Eratosthenes

@@ -1,5 +1,7 @@
 # Math
 
+* [Least Common Multiple (LCM)](lcm/lcm.md)
+
 `Calculation`
 
 * [Quick Power](calculation/quick_power.md)
