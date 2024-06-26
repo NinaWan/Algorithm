@@ -10,7 +10,7 @@ public class QuickPower {
             }
             base = base * base % mod;
         }
-        return res;
+        return res % mod;
     }
 
     public long recursion(long base, long exponent, int mod) {
