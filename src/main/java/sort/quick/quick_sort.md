@@ -19,15 +19,15 @@
 ### 时间复杂度
 
 ```
-    public void sort(int[] nums, int start, int end) {
-        if (start >= end) {
-            return;
-        }
+public void sort(int[] nums, int start, int end) {
+   if (start >= end) {
+       return;
+   }
 
-        int pivotIdx = partition(nums, start, end); // 时间复杂度为O(n)
-        sort(nums, start, pivotIdx - 1); // 时间复杂度为T()
-        sort(nums, pivotIdx + 1, end);
-    }
+   int pivotIdx = partition(nums, start, end); // 时间复杂度为O(n)
+   sort(nums, start, pivotIdx - 1); // 时间复杂度为T()
+   sort(nums, pivotIdx + 1, end);
+}
 ```
 
 在快排算法中，数组会被分成两个子序列，长度分别为pivotIdx和n-pivotIdx-1，对两个子序列调用递归排序的时间复杂度为T(pivotIdx)和T(n-pivotIdx-1)；另外，partition部分的时间复杂度为O(n)
