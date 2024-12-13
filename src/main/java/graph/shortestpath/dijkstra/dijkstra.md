@@ -24,13 +24,21 @@ Step 1.
 * 初始化dists：dists[0...n)=∞; dists[s]=0;
 * 遍历s的邻接顶点，更新对应的dists。
 
-Step 2. 从U中选出距离s最短的顶点k，加入到S中，并从U中移除k;
+Step 2. 从U中选出距离s最短的顶点k，加入到S中，并从U中移除k。
 
 Step 3. 遍历k的邻接顶点，更新对应的dists。
 
 Step 4. 重复Step 2和Step 3，直到U为空。
 
 ## 实现
+
+### 优先队列实现法
+
+`Key Points`
+
+1）**dists数组**：记录起点到各个节点的当前最短距离。
+
+2）**priority queue**：<node, dist> - sort by distance ascending.
 
 ## 时间复杂度
 

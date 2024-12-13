@@ -31,6 +31,12 @@ public class Dijkstra {
         }
     }
 
+    /**
+     * @param start
+     * @param n
+     * @param edges
+     * @return Shortest distances from start to other nodes in the graph.
+     */
     public int[] shortestPathAll_Queue(int start, int n, int[][] edges) {
         Map<Integer, Map<Integer, Integer>> graph = toGraph(edges);
         // <node, dist> - sort by distance ascending
@@ -60,6 +66,13 @@ public class Dijkstra {
         return dists;
     }
 
+    /**
+     * @param start
+     * @param end
+     * @param n
+     * @param edges
+     * @return Shortest distance from start to end.
+     */
     public int shortestPath_Queue(int start, int end, int n, int[][] edges) {
         Map<Integer, Map<Integer, Integer>> graph = toGraph(edges);
         // <node, dist> - sort by distance ascending
