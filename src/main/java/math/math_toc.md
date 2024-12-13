@@ -1,5 +1,7 @@
 # Math
 
+* [Greatest Common Divisor (GCD)](gcd/gcd.md)
+
 * [Least Common Multiple (LCM)](lcm/lcm.md)
 
 `Calculation`

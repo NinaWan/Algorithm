@@ -1,12 +1,10 @@
 package math.lcm;
 
-import java.util.Set;
-
-import static math.gcd.GCD.gcd;
+import static math.gcd.GCD.gcd_recursive;
 
 public class LCM {
     public int lcm_1(int a, int b) {
-        return a * b / gcd(a, b);
+        return a * b / gcd_recursive(a, b);
     }
 
     public int lcm_2(int a, int b) {
@@ -27,4 +25,13 @@ public class LCM {
         }
         return a * b;
     }
+
+//    public int lcm_4(int a, int b) {
+//        Set<Integer> pf1 = ,pf2 =;
+//        pf1.retainAll(pf2);
+//    }
+
+//    private Set<Integer> getPrimeFactors() {
+//
+//    }
 }
