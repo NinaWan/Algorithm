@@ -1,12 +1,11 @@
 # Math
 
-* [Greatest Common Divisor (GCD)](gcd/gcd.md)
-
-* [Least Common Multiple (LCM)](lcm/lcm.md)
-
 `Calculation`
 
-* [Quick Power](calculation/quick_power.md)
+* [Combination](calculation/combination/combination.md)
+* [Greatest Common Divisor (GCD)](calculation/gcd/gcd.md)
+* [Least Common Multiple (LCM)](calculation/lcm/lcm.md)
+* [Quick Power](calculation/quickPower/quick_power.md)
 
 `Prime`
 

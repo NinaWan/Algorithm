@@ -1,4 +1,4 @@
-package math.lcm;
+package math.calculation.lcm;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

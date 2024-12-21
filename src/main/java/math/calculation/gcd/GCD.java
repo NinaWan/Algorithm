@@ -1,4 +1,4 @@
-package math.gcd;
+package math.calculation.gcd;
 
 public class GCD {
     public static int gcd_recursive(int a, int b) {

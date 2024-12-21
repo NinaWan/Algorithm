@@ -1,4 +1,4 @@
-package math.gcd;
+package math.calculation.gcd;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

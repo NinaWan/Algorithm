@@ -1,4 +1,4 @@
-package math.calculation;
+package math.calculation.quickPower;
 
 public class QuickPower {
     public long iteration(long base, long exponent, int mod) {

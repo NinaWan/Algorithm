@@ -1,6 +1,6 @@
-package math.lcm;
+package math.calculation.lcm;
 
-import static math.gcd.GCD.gcd_recursive;
+import static math.calculation.gcd.GCD.gcd_recursive;
 
 public class LCM {
     public int lcm_1(int a, int b) {
