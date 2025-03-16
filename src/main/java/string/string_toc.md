@@ -7,3 +7,7 @@
 ## Palindrome
 
 * [Manacher](palindrome/manacher/manacher.md)
+
+## Others
+
+* [Z-Function](zFunction/z-function.md)
