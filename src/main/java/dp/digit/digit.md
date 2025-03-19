@@ -4,12 +4,6 @@
 
 统计整数区间[a, b]内，满足与数位相关的特定属性的整数x的个数。
 
-[LeetCode 2376. Count Special Integers](https://leetcode.com/problems/count-special-integers/)
-
-[LeetCode 2801. Count Stepping Numbers in Range](https://leetcode.com/problems/count-stepping-numbers-in-range/)
-
-[LeetCode 2827. Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)
-
 ## 算法思想
 
 假定G(x)为整数区间[1, x]内，满足条件的整数的个数，则最终答案为G(b)-G(a-1)。
@@ -19,8 +13,7 @@ G(x)的求解过程可以通过数位DP实现，过程如下：
 1. 将x用数位表示，位数为n，从左至右下标依次为n, n-1, ..., 1；
 2. 依次构建小于等于x的整数：
     1. 从位数为1的整数开始构建，直到位数为n的整数，同时判断整数是否满足要求的属性；
-    2. 记dp(i)为位数至多为i的符合要求的整数的个数，则在之前的状态dp(i-1)基础上，通过对最高位(i.e. 第i位)取不同的值(i.e.
-       0-9，且不超过x的第i位数值)来得到dp(i)的结果，避免重复计算。
+    2. 记dp(i)为位数至多为i的符合要求的整数的个数，则在之前的状态dp(i-1)基础上，通过对最高位(i.e. 第i位)取不同的值(i.e. 0-9，且不超过x的第i位数值)来得到dp(i)的结果，避免重复计算。
 
 特别地，当最高位的取值等于x的第i位数值时，为了使最终构建的整数不超过x，则要求次高位的取值也不超过x的第i-1位数值。
 
@@ -110,6 +103,13 @@ public int countInRange(int num){
 }
 ```
 
-# Refs
+## Related Programming Problems
+
+* [LeetCode 2376. Count Special Integers](https://leetcode.com/problems/count-special-integers/)
+* [LeetCode 2801. Count Stepping Numbers in Range](https://leetcode.com/problems/count-stepping-numbers-in-range/)
+* [LeetCode 2827. Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/)
+* [LeetCode 3490. Count Beautiful Numbers](https://leetcode.com/problems/count-beautiful-numbers/)
+
+## Refs
 
 1. [Digit DP | Introduction - GeeksForGeeks](https://www.geeksforgeeks.org/digit-dp-introduction/)

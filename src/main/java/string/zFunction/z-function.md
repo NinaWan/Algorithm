@@ -80,7 +80,7 @@ O(n)
 * [LeetCode 2223. Sum of Scores of Built Strings](https://leetcode.com/problems/sum-of-scores-of-built-strings/description/)
 * [LeetCode 3303. Find the Occurrence of First Almost Equal Substring](https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/)
 
-# Refs
+## Refs
 
 1. [Z 函数（扩展 KMP）](https://oi-wiki.org/string/z-func/#__tabbed_1_1)
 2. [Z-function and its calculation](https://cp-algorithms.com/string/z-function.html)
